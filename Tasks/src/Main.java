@@ -221,7 +221,7 @@ public class Main {
         System.out.println();
 
         for ( Task task : res ) {
-
+//for some reason, cant not express double 0 after performing %
             System.out.println( task.getDescription()
                                         + ", "
                                         + task.getStartTime() / 60
